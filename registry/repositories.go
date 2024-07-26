@@ -1,5 +1,7 @@
 package registry
 
+import "strings"
+
 type repositoriesResponse struct {
 	Repositories []string `json:"repositories"`
 }

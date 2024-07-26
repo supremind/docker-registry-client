@@ -1,5 +1,7 @@
 package registry
 
+import "strings"
+
 type tagsResponse struct {
 	Tags []string `json:"tags"`
 }
